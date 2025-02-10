@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Comment Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Reddit Comment Tracker</h1>
+    
+    <input type="text" id="commentUrl" placeholder="Paste Reddit comment URL here">
+    <button id="fetchComment">Fetch Comment</button>
+    <button id="refreshAllComments">Refresh All Comments</button>
+
+    <h2>Saved Comments</h2>
+    <div id="commentsList"></div>
+
+    <script src="db.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,1 +1,3 @@
 # Redactivity-MahirMIslam
+
+Redactivity is a web application that retrieves, stores, and displays Reddit comments directly from a given URL. It utilizes the fetch API to asynchronously request data from the Reddit JSON API, parsing the response and extracting relevant details such as the author, content, and engagement metrics. The application implements IndexedDB for client-side persistent storage, ensuring comments remain available across sessions. Using IndexedDB transactions, data is stored and retrieved efficiently without blocking the main thread. The UI dynamically updates through JavaScript DOM manipulation, rendering stored comments in a structured format.
